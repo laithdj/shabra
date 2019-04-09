@@ -24,13 +24,13 @@
 								</div>
 							</td>-->
 							<td>{{ item.product_name }}</td>
-							<td>{{ item.product_price | currency }}</td>
+							<td>{{ item.product_price }} KD</td>
 							<td>{{ this.mainservice.cartdata[i].cartquantity }}</td>
-							<td>{{ item.product_price*item.cartquantity | currency }}</td>
+							<td>{{ item.product_price*item.cartquantity  }} KD</td>
 						</tr>
 						<tr>
 							<td colspan="3" align="center"><b>Total :</b></td>
-							<td>{{ totalAmount | currency }}</td>
+							<td>{{ totalAmount  }} KD</td>
 						</tr>
 					</table>
 				</div>
